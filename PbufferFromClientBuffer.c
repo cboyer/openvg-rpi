@@ -497,7 +497,7 @@ void text_offscreen_pbuffer() {
         assert(vgGetError() == VG_NO_ERROR);
 
         // Read memory and save to PNG file to see something (bad performances)
-        vgGetImageSubData(drawn_image, ScreenBuffer, (screen_width * 4), VG_sARGB_8888, 0, 0, screen_width, screen_height); //offscreen
+        vgGetImageSubData(drawn_image, ScreenBuffer, (screen_width * 4), VG_sABGR_8888, 0, 0, screen_width, screen_height); //offscreen
         sprintf(filename, "img%d.png", i);
         stbi_write_png(filename, screen_width, screen_height, 4, ScreenBuffer, (screen_width * 4) ); //channel= 1=Y, 2=YA, 3=RGB, 4=RGBA
         printf("%s saved\n", filename);

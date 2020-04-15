@@ -26,7 +26,7 @@ A transformation matrix is applied to reverse pixels order according to `stbi_wr
 <td>PbufferSurface.c</td><td>96.77 i/s, 10.5% CPU</td><td>176.47 i/s, 30% CPU</td><td>20.68 i/s, 26.5% CPU</td><td>23.07 i/s, 33% CPU</td>
 </tr>
 <tr>
-<td>PbufferFromClientBuffer.c</td><td>56.60 i/s, 6.5% CPU</td><td>68.18 i/s, 7.8% CPU</td><td>11.95 i/s, 24% CPU</td><td>10.04 i/s, 20% CPU</td>
+<td>PbufferFromClientBuffer.c</td><td>63.49 i/s, 6.5% CPU</td><td>76.92 i/s, 7.8% CPU</td><td>16.39 i/s, 23% CPU</td><td>17.24 i/s, 19% CPU</td>
 </tr>
 </table>
 
